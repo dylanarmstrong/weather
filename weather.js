@@ -5,7 +5,7 @@ const fs = require('fs');
 const https = require('https');
 
 // Single line api key from openweatherapi
-const key = fs.readFileSync('./.apikey').toString();
+const key = fs.readFileSync('./apikey').toString();
 
 const usage = () => {
   console.error('Usage: weather zipcode');
