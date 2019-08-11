@@ -1,0 +1,6 @@
+Create file named apikey with an api key from https://openweathermap.org
+
+Usage: ./weather.js 12345
+
+Response:
+75.02 F - Clouds
